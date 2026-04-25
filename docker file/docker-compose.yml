@@ -1,7 +1,5 @@
 version: '3.8'
-
 services:
-
   # ----------------- Zookeeper -----------------
   zookeeper:
     image: confluentinc/cp-zookeeper:7.4.0
@@ -32,9 +30,25 @@ services:
     networks:
       - streaming_net
 
-  # ----------------- Postgres -----------------
+  # ----------------- TimescaleDB -----------------
+  timescaledb:
+    image: timescale/timescaledb:latest-pg15
+    container_name: timescaledb
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: flights_db
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./timescaledb/data:/var/lib/postgresql/data
+    restart: unless-stopped
+    networks:
+      - streaming_net
+
+  # ----------------- Postgres (Airflow) -----------------
   postgres:
-    image: postgres:14
+    image: postgres:15
     container_name: postgres
     environment:
       POSTGRES_USER: admin
@@ -94,6 +108,8 @@ services:
   grafana:
     image: grafana/grafana:10.4.2
     container_name: grafana
+    depends_on:
+      - timescaledb
     ports:
       - "3000:3000"
     environment:
@@ -129,4 +145,3 @@ volumes:
 networks:
   streaming_net:
     driver: bridge
-
