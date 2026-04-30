@@ -23,7 +23,7 @@ The system follows best practices like:
 
 ## 🏗️ Architecture
 
-[Architecture](https://github.com/AhmedRefat1412/Flight-Airline-Analytics-Platform/blob/main/doc/Flight%20%26%20Airline%20Analytics%20Platform.png)
+![Architecture](https://github.com/AhmedRefat1412/Flight-Airline-Analytics-Platform/blob/main/doc/Flight%20%26%20Airline%20Analytics%20Platform.png)
 
 ---
 
@@ -52,7 +52,7 @@ The system follows best practices like:
 
 ## 🔴 Real-Time Dashboard (Grafana)
 
-[Grafana Dashboard](https://github.com/AhmedRefat1412/Flight-Airline-Analytics-Platform/blob/main/doc/dashboard%20(Grafana)/Pasted%20image.png)
+![Grafana Dashboard](https://github.com/AhmedRefat1412/Flight-Airline-Analytics-Platform/blob/main/doc/dashboard%20(Grafana)/Pasted%20image.png)
 
 Built using Grafana to monitor real-time flight data and predictions.
 
@@ -85,7 +85,7 @@ Built using **Medallion Architecture**
 
 ## ⭐ Data Warehouse (Galaxy Schema)
 
-[Data Warehouse](https://github.com/AhmedRefat1412/Flight-Airline-Analytics-Platform/blob/main/doc/Flight%20%26%20Airline%20Data%20warehouse2.drawio.png)
+![Data Warehouse](https://github.com/AhmedRefat1412/Flight-Airline-Analytics-Platform/blob/main/doc/Flight%20%26%20Airline%20Data%20warehouse2.drawio.png)
 
 The data warehouse is designed using a **Galaxy Schema** to support complex analytical queries.
 
