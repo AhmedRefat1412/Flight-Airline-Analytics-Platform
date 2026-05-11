@@ -85,7 +85,7 @@ Built using **Medallion Architecture**
 
 ## ⭐ Data Warehouse (Galaxy Schema)
 
-![Data Warehouse](https://github.com/AhmedRefat1412/Flight-Airline-Analytics-Platform/blob/main/doc/Flight%20%26%20Airline%20Data%20warehouse2.drawio.png)
+![Data Warehouse](https://github.com/AhmedRefat1412/Flight-Airline-Analytics-Platform/blob/main/doc/data_warehouse_schema/Flight%20%26%20Airline%20Data%20warehouse2.drawio.png)
 
 The data warehouse is designed using a **Galaxy Schema** to support complex analytical queries.
 
@@ -100,7 +100,10 @@ The data warehouse is designed using a **Galaxy Schema** to support complex anal
 
 ##  Analytical Dashboard (Power BI)
 
-[Power BI Dashboard]()
+![Power BI Dashboard_1](https://github.com/AhmedRefat1412/Flight-Airline-Analytics-Platform/blob/main/doc/power_bi/Dashboard_1.png)
+
+![Power BI Dashboard_2](https://github.com/AhmedRefat1412/Flight-Airline-Analytics-Platform/blob/main/doc/power_bi/Dashboard_2.png)
+
 
 Built on top of Snowflake data warehouse to deliver business insights.
 
