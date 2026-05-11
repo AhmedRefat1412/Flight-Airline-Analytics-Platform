@@ -23,7 +23,7 @@ The system follows best practices like:
 
 ## 🏗️ Architecture
 
-![Architecture](https://github.com/AhmedRefat1412/Flight-Airline-Analytics-Platform/blob/main/doc/Flight%20%26%20Airline%20Analytics%20Platform.png)
+![Architecture](https://github.com/AhmedRefat1412/Flight-Airline-Analytics-Platform/blob/main/doc/arcticture_digram/Flight%20%26%20Airline%20Analytics%20Platform.png)
 
 ---
 
